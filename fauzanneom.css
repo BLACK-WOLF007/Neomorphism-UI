@@ -1,0 +1,354 @@
+body{
+
+background-color:#29303a;
+}
+
+
+.nav{
+
+
+height:200px;
+width:200px;
+margin-left:30px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius: 46px;
+background: #29303a;
+box-shadow:  20px 20px 26px #20262e,
+             -20px -20px 26px #323a46;
+margin-top:20px;
+
+
+}
+
+
+
+
+.nav span{
+
+font-size:90px;
+font-family:sans-serif;
+color:#fda038;
+text-shadow: 2px 2px 5px #20262e,
+             -2px -2px 5px #a6a6ae;
+}
+
+
+
+.sq{
+
+position:absolute;
+margin-top:150px;
+margin-left:125px;
+transform:translate(-50%,-50%);
+height:50px;
+width:150px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius: 46px;
+background: linear-gradient(145deg, #2c333e, #252b34);
+box-shadow:  14px 14px 28px #1c2128,
+             -14px -14px 28px #363f4c;
+
+}
+
+.sq a{
+
+padding:10px 20px;
+color:#fda038;
+font-size:25px;
+font-weight:600;
+text-decoration:none;
+font-family:sans-serif;
+
+
+}
+
+
+#popup{
+
+position:fixed;
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+background: rgba(30,29,47,0.60);
+
+display:none;
+}
+
+
+#popup .popup-content{
+
+position:absolute;
+top:55%;
+left:40%;
+transform:translate(-50%,-50%);
+width:400px;
+padding:10px 20px;
+color:white;
+background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.1 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.38 );
+}
+
+#popup a.close-popup{
+
+position:absolute;
+top:20px;
+right:20px;
+font-size:30px;
+font-weight:600;
+text-decoration:none;
+color:#fd891c;
+width:15px;
+height:15px;
+}
+
+#popup:target{
+
+display:block;
+}
+
+
+
+
+
+.sq1{
+
+position:absolute;
+margin-top:150px;
+margin-left:450px;
+transform:translate(-50%,-50%);
+height:50px;
+width:150px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius: 46px;
+background: linear-gradient(145deg, #2c333e, #252b34);
+box-shadow:  14px 14px 28px #1c2128,
+             -14px -14px 28px #363f4c;
+
+}
+
+.sq1 a{
+
+padding:10px 20px;
+color:#fafafa;
+font-size:20px;
+font-weight:600;
+text-decoration:none;
+font-family:sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.search{
+
+font-size:20px;
+width:200px;
+margin-top:200px;
+margin-left:50px;
+
+
+}
+
+#sh{
+
+height:40px;
+width:250px;
+font-size:15px;
+border-radius: 46px;
+background: #29303a;
+box-shadow: inset 14px 14px 28px #1c2128,
+            inset -14px -14px 28px #363f4c;
+
+border:none;
+padding-left:35px;
+text-transform:capitalize;
+color:white;
+}
+
+
+.so{
+
+height:80px;
+width:80px;
+font-size:15px;
+margin-top:50px;
+margin-left:50px;
+border-radius: 20px;
+background: linear-gradient(145deg, #252b34, #2c333e);
+box-shadow:  14px 14px 28px #1c2128,
+             -14px -14px 28px #363f4c;
+
+}
+
+
+.sol span{
+
+
+margin-left:25px;
+}
+
+.sol{
+
+margin-top:-55px;
+margin-left:50px;
+font-size:30px;
+color:#17cd92;
+}
+
+
+
+
+
+
+
+.so1{
+
+height:80px;
+width:80px;
+font-size:15px;
+margin-top:-55px;
+margin-left:200px;
+border-radius: 20px;
+background: linear-gradient(145deg, #252b34, #2c333e);
+box-shadow:  14px 14px 28px #1c2128,
+             -14px -14px 28px #363f4c;
+}
+
+
+.sol1 span{
+
+
+margin-left:25px;
+}
+
+.sol1{
+
+margin-top:-55px;
+margin-left:200px;
+font-size:30px;
+color:#2a69f6;
+}
+
+
+
+
+
+
+
+.so2{
+
+height:80px;
+width:80px;
+font-size:15px;
+margin-top:-55px;
+margin-left:350px;
+border-radius: 20px;
+background: linear-gradient(145deg, #252b34, #2c333e);
+box-shadow:  14px 14px 28px #1c2128,
+             -14px -14px 28px #363f4c;
+}
+
+
+.sol2 span{
+
+
+margin-left:25px;
+}
+
+.sol2{
+
+margin-top:-55px;
+margin-left:353px;
+font-size:30px;
+color:#e5294a;
+}
+
+
+.sea{
+
+margin-top:-28px;
+margin-left:60px;
+color:#fe8077;
+}
+
+
+.ra{
+
+margin-top:-100px;
+margin-left:350px;
+color:red;
+font-size:100px;
+width:60px;
+border-radius: 20px;
+background: linear-gradient(145deg, #252b34, #2c333e);
+box-shadow:  2px 2px 5px #1c2128,
+             -2px -2px 5px #363f4c;
+}
+
+
+.cont{
+
+margin-top:50px;
+
+}
+
+
+
+
+#ra1{
+
+color:red;
+font-size:30px;
+height:50px;
+width:50px;
+
+border-radius: 20px;
+background: linear-gradient(145deg, #252b34, #2c333e);
+box-shadow:  2px 2px 5px #1c2128,
+             -2px -2px 5px #363f4c;
+border:none;
+}
+
+
+
+
+
+
+::-webkit-input-placeholder{
+                             color:#9cabbe;
+                            }
+
+
+
+input{
+
+accent-color:red;
+caret-color:green;
+
+}
+
+
+
